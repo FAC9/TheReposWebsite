@@ -101,3 +101,7 @@ body {
 header{
   background-image: url("../images/groupPhotos.jpg");
 }
+
+#team-section h2, p {
+  text-align: center;
+}
