@@ -14,9 +14,43 @@
   border:2px dashed #fff;
 }
 
+.imageStyle {
+  width: 15%;
+  height: auto;
+  display: inline-block;
+}
+
+.programmer-list {
+  position: relative;
+}
+
+.programmer-name {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 55px;
+}
+
+.programmer-name h3 {
+  margin: 0;
+}
+
 #title-nav {
   font-size:1.4em;
   text-align: center;
 
   Color:#fff;
+}
+
+#homeScreen{
+  height: 250px;
+}
+#name1{
+  display: inline-block;
+}
+.backgroundColor{
+  background-color: white;
+}
+header{
+  background-image: url("../images/groupPhotos.jpg");
 }
