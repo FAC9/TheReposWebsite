@@ -90,7 +90,7 @@ body {
 }
 
 #homeScreen{
-  height: 250px;
+  height: 215px;
 }
 #name1{
   display: inline-block;
@@ -100,4 +100,13 @@ body {
 }
 header{
   background-image: url("../images/groupPhotos.jpg");
+  height: 100px;
+}
+
+header h1{
+  padding-top: 100px;
+}
+
+.fixed_height{
+  height: 250px;
 }
