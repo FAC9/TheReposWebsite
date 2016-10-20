@@ -266,27 +266,6 @@ header a {
     padding-bottom: 5%;
 }
 
-/*.social-buttons {
-  width: 20%;
-  left: 50%;
-  right: 50%;
-  //position: relative;
-  max-height: 50px;
-  padding: 3%;
-  display: table-cell;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.social-buttons:last-of-type {
-  margin-right: 0;
-}*/
-
-
-/*.social-buttons .fa, .fa:active{
-  font-size: 24px;
-  color: #000;
-}*/
 .buttons-container .fa, .fa:active{
   font-size: 24px;
   color: #000;
@@ -296,7 +275,7 @@ header a {
 
 footer {
   background-color: #030201;
-  height: 345px;
+  height: 400px;
   text-align: center;
   color: white;
   margin: auto;
@@ -307,8 +286,6 @@ footer li, footer p  {
   text-align: left;
   margin-left: 5%
 }
-
-
 
 footer .fa {
   font-size: 35px;
