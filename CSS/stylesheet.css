@@ -175,8 +175,9 @@ header h1{
 }
 
 .profileHeight{
-  margin-top: 100px;
+  margin-top: 10%;
   height: auto;
+
 }
 
 .imageStyle{
@@ -190,7 +191,7 @@ header h1{
 }
 
 .buttons-container {
-  border: none;
+    padding-bottom: 5%;
 }
 
 .social-buttons {
