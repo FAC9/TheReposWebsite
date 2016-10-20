@@ -213,7 +213,7 @@ header h1{
 
 footer {
   background-color: gray;
-  height: 328px;
+  height: 345px;
   text-align: center;
   color: white;
 }
@@ -229,6 +229,11 @@ footer i {
 }
 
 footer p{
-  margin-top: -26px;
+  margin-top: -30px;
   margin-left: -30px;
+}
+
+footer a{
+  font-size:35px;
+  color: white;
 }
