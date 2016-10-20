@@ -1,16 +1,17 @@
 body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 .grid-system {
   width: 100%;
-  max-width:320px;
+  max-width:500px;
   margin:auto;
 }
 
 .row {
   width: 100%;
-  max-width: 320px;
+  max-width: 500px;
   //border:1px solid #bbb;
 }
 
@@ -22,7 +23,7 @@ body {
 
 #navigation {
   position:fixed;
-  margin-top: -10px;
+  //margin-top: -10px;
   height:auto;
   z-index:999;
 }
@@ -122,11 +123,13 @@ header{
 }
 
 header h1{
-  padding-top: 90px;
+  //padding-top: 90px;
   text-align:center;
   letter-spacing: 1px;
   color:#fff;
   font-weight: lighter;
+  background-color: rgba(55, 55, 55, 0.7);
+  margin: 170px auto;
 }
 
 .fixed_height{
