@@ -1,6 +1,4 @@
 
-
-
 body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   margin: 0;
@@ -12,29 +10,137 @@ body {
   margin:auto;
 }
 
-a, h:hover {
-  text-decoration: none;
-  color: currentColor;;
-}
-
 .row {
   width: 100%;
   max-width: 500px;
-  //border:1px solid #bbb;
 }
-
 .row:before, .row:after{
   content:"";
   display:table;
   clear:both;
 }
 
+[class*="col-"] {
+  float:left;
+  min-height: 1px;
+  width: 16.66%;
+  padding: 12px;
+}
+
+.col-xs-6 {
+  width: 50%;
+  padding:0;
+}
+
+.col-xs-5 {
+  width: 41.6%;
+  padding:0;
+}
+
+.col-xs-2 {
+  width: 16.66%;
+  padding:0;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.66%;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.33%;
+}
+
+a, h:hover {
+  text-decoration: none;
+  color: currentColor;;
+}
+
+.section-title {
+  font-size: 1.9em;
+}
+
 #navigation {
   position:fixed;
-  //margin-top: -10px;
   height:auto;
   z-index:999;
 }
+
+#title-nav {
+  font-size:0.8em;
+  letter-spacing: 4px;
+  text-align: center;
+  color:#fff;
+  background-color:  #030201;
+  padding: 5px 0px 5px 0px;
+}
+
+#title-nav h1 {
+  margin:0;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+#buttons-nav {
+  position:relative;
+}
+
+#buttons-nav ul {
+  margin:0;
+}
+
+.nav-button {
+  display:inline-block;
+  background-color:  #030201;
+  width: 80px;
+  height: 60px;
+  line-height: 80px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.nav-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#nav-home-button {
+  position:absolute;
+  border-radius:0% 0% 25% 0%;
+  left:0;
+}
+#nav-contact-button {
+  position:absolute;
+  border-radius:0% 0% 0% 25%;
+  right: 0;
+}
+
+header {
+  background-image: url("../images/groupPhoto.jpg");
+  height: 250px;
+  background-size: cover;
+}
+
+header h1{
+  text-align:center;
+  letter-spacing: 1px;
+  color:#fff;
+  font-weight: lighter;
+  background-color: rgba(55, 55, 55, 0.7);
+  margin: 170px auto;
+  width: 200px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+
+}
+header a {
+  text-decoration: none;
+}
+
 
 a.anchor-name {
     display: block;
@@ -83,100 +189,28 @@ a.anchor-title {
   display: inline-block;
 }
 
-#title-nav {
-  font-size:0.8em;
-  letter-spacing: 4px;
-  text-align: center;
-  color:#fff;
-  background-color:  #030201;
-  padding: 5px 0px 5px 0px;
-}
-
-#title-nav h1 {
-  margin:0;
-  font-family: 'Fjalla One', sans-serif;
-
-}
-
-#buttons-nav {
-  position:relative;
-}
-
-#buttons-nav ul {
-  margin:0;
-}
-
-#homeScreen ul div a{
-  text-decoration: none;
-  color: black;
-}
-
-#homeScreen ul {
-  margin-left:25px;
-}
-
-.section-title {
-  font-size: 1.9em;
-}
-.nav-button {
-  display:inline-block;
-  background-color:  #030201;
-  width: 80px;
-  height: 60px;
-  line-height: 80px;
-  text-align: center;
-  margin-top: -30px;
-}
-
-.nav-button a {
-  text-decoration: none;
-  color: #fff;
-}
-
-#nav-home-button {
-  position:absolute;
-  border-radius:0% 0% 25% 0%;
-  left:0;
-}
-#nav-contact-button {
-  position:absolute;
-  border-radius:0% 0% 0% 25%;
-  right: 0;
-}
-
 #name1{
   display: inline-block;
 }
-.backgroundColor{
-  background-color: white;
-}
 
-
-header{
-  background-image: url("../images/groupPhoto.jpg");
-  height: 90px;
-  background-size: cover;
-}
-
-header h1{
-  //padding-top: 90px;
+#projects {
   text-align:center;
-  letter-spacing: 1px;
-  color:#fff;
-  font-weight: lighter;
-  background-color: rgba(55, 55, 55, 0.7);
-  margin: 170px auto;
-  width: 200px;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 40px;
-  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.project {
+  height: 120px;
 
 }
-header a {
-  text-decoration: none;
+
+.projects-line {
+  max-width: 320px;
+  margin: auto;
 }
-.fixed_height{
-  height: 250px;
+
+.proj-img {
+  width: 100%;
+  height:100%;
 }
 
 #team-section {
@@ -188,65 +222,9 @@ header a {
   margin-right: 15px;
 }
 
-#projects {
-  text-align:center;
-  margin-bottom: 10px;
-}
-.project {
-  height: 120px;
-
-}
-
-.projects-line {
-  max-width: 320px;
-  margin: auto;
-}
-
-[class*="col-"] {
-  float:left;
-  min-height: 1px;
-  width: 16.66%;
-  padding: 12px;
-}
-
-.col-xs-offset-3 {
-  margin-left: 25%;
-}
-
-.col-xs-offset-1 {
-  margin-left: 8.33%;
-}
-
-.col-xs-6 {
-  width: 50%;
-  //margin:0px;
-  padding:0;
-}
-
-.col-xs-offset-2 {
-  margin-left: 16.66%;
-}
-
-.col-xs-2 {
-  width: 16.66%;
-  padding:0;
-}
-
-.col-xs-5 {
-  width: 41.6%;
-  padding:0;
-}
-
-.proj-img {
-  width: 100%;
-  height:100%;
-  /*filter:grayscale(90%);*/
-}
-
 .profileHeight{
   margin-top: 10%;
   height: auto;
-
 }
 
 .imageStyle{
@@ -266,7 +244,7 @@ header a {
     padding-bottom: 5%;
 }
 
-.buttons-container .fa, .fa:active{
+.buttons-container .fa {
   font-size: 24px;
   color: #000;
   margin-left: 5%;
