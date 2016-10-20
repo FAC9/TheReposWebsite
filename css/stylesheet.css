@@ -1,3 +1,6 @@
+
+
+
 body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   margin: 0;
@@ -7,6 +10,11 @@ body {
   width: 100%;
   max-width:500px;
   margin:auto;
+}
+
+a, h:hover {
+  text-decoration: none;
+  color: currentColor;;
 }
 
 .row {
@@ -86,6 +94,8 @@ a.anchor-title {
 
 #title-nav h1 {
   margin:0;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
 #buttons-nav {
@@ -154,6 +164,10 @@ header h1{
   background-color: rgba(55, 55, 55, 0.7);
   margin: 170px auto;
   width: 200px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+
 }
 header a {
   text-decoration: none;
