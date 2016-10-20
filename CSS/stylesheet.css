@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .grid-system {
@@ -24,6 +24,7 @@ body {
   position:fixed;
   margin-top: -10px;
   height:auto;
+  z-index:999;
 }
 
 
@@ -128,7 +129,7 @@ header h1{
 }
 
 .project {
-  //background-color: salmon;
+  background-color: salmon;
   height: 100px;
   //border: 1px solid red;
   // display:inline-block;
@@ -143,14 +144,14 @@ header h1{
 
 }
 .col-xs-6 {
-  width: 41%;
-  margin:1px;
+  width: 50%;
+  margin:0px;
+  padding:0;
 }
 
 .proj-img {
   width: 100%;
   height:100%;
-  margin:0;
 }
 
 .profileHeight{
