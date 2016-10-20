@@ -115,6 +115,9 @@ a.anchor-title {
   margin-left:25px;
 }
 
+.section-title {
+  font-size: 1.9em;
+}
 .nav-button {
   display:inline-block;
   background-color:  #030201;
