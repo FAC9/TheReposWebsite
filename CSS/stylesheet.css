@@ -1,16 +1,17 @@
 body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 .grid-system {
   width: 100%;
-  max-width:320px;
+  max-width:500px;
   margin:auto;
 }
 
 .row {
   width: 100%;
-  max-width: 320px;
+  max-width: 500px;
   //border:1px solid #bbb;
 }
 
@@ -22,7 +23,7 @@ body {
 
 #navigation {
   position:fixed;
-  margin-top: -10px;
+  //margin-top: -10px;
   height:auto;
   z-index:999;
 }
@@ -139,11 +140,14 @@ header{
 }
 
 header h1{
-  padding-top: 90px;
+  //padding-top: 90px;
   text-align:center;
   letter-spacing: 1px;
   color:#fff;
   font-weight: lighter;
+  background-color: rgba(55, 55, 55, 0.7);
+  margin: 170px auto;
+  width: 200px;
 }
 header a {
   text-decoration: none;
@@ -168,6 +172,11 @@ header a {
 .project {
   height: 120px;
 
+}
+
+.projects-line-1, .projects-line-2 {
+  max-width: 320px;
+  margin: auto;
 }
 
 [class*="col-"] {
@@ -203,6 +212,9 @@ header a {
   border-radius: 100%;
   height: 160px;
   width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .profile-description {
@@ -213,23 +225,32 @@ header a {
     padding-bottom: 5%;
 }
 
-.social-buttons {
+/*.social-buttons {
   width: 20%;
-  margin-right: 15%;
-  position: relative;
+  left: 50%;
+  right: 50%;
+  //position: relative;
   max-height: 50px;
   padding: 3%;
-  display: inline;
+  display: table-cell;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-buttons:last-of-type {
   margin-right: 0;
-}
+}*/
 
 
-.social-buttons .fa, .fa:active{
+/*.social-buttons .fa, .fa:active{
   font-size: 24px;
   color: #000;
+}*/
+.buttons-container .fa, .fa:active{
+  font-size: 24px;
+  color: #000;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 footer {
@@ -237,6 +258,7 @@ footer {
   height: 345px;
   text-align: center;
   color: white;
+  margin: auto;
 }
 
 footer li {
@@ -251,7 +273,6 @@ footer i {
 
 footer p{
   margin-top: -30px;
-  margin-left: -30px;
 }
 
 footer a{
