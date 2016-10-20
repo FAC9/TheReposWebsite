@@ -30,8 +30,9 @@ body {
 
 .iconStyle {
   width: 15%;
-  height: auto;
+  height: 20%;
   display: inline-block;
+  border-radius: 100%;
 }
 
 .programmer-list {
