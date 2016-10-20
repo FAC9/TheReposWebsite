@@ -302,21 +302,15 @@ footer {
   margin: auto;
 }
 
-footer li {
+footer li, footer p  {
   list-style: none;
   text-align: left;
   margin-left: 5%
 }
 
-footer i {
-  padding-right: 80%;
-}
 
-footer p{
-  margin-top: -30px;
-}
 
-footer a{
-  font-size:35px;
-  color: white;
+footer .fa {
+  font-size: 35px;
+  margin-right: 5%;
 }
