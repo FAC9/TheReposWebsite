@@ -1,8 +1,9 @@
 # TheReposWebsite
 The Repos project for week 1 of FAC9. 
 
-![Wireframe](https://github.com/FAC9/TheReposWebsite/blob/master/New%20Mockup%201.png)
+[Our site is live here --> fac9.github.io/TheReposWebsite](https://fac9.github.io/TheReposWebsite/)
 
+![Wireframe](https://github.com/FAC9/TheReposWebsite/blob/master/New%20Mockup%201.png)
 
 ## WHY
 
