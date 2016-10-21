@@ -269,3 +269,9 @@ footer .fa {
   font-size: 35px;
   margin-right: 5%;
 }
+
+footer ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -10px;
+}
